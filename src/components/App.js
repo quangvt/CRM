@@ -5,7 +5,8 @@ import { Provider } from 'react-redux';
 import { createStore, compose, applyMiddleware } from 'redux';
 import Login from './Login';
 import Loader from './Loader';
-import BottomTabNavigator from './BottomTabNavigator';
+// import BottomTabNavigator from './BottomTabNavigator';
+import AppContainer from './AppContainer';
 import reducers from '../reducers/PeopleReducer';
 import Thunk from 'redux-thunk';
 
@@ -62,7 +63,8 @@ export default class App extends Component {
   renderInitialView() {
     switch (this.state.loggedIn) {
       case true:
-        return <BottomTabNavigator />;
+        // return <BottomTabNavigator />;
+        return <AppContainer />;
       case false:
         return (
           <View style={styles.container}>

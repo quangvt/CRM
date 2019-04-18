@@ -40,8 +40,8 @@ class AddPerson extends Component {
     tabBarLabel: 'Add Person',
     tabBarIcon: ({ tintColor }) => (
         <Image
-          style={style.addButton}
-          source={required('../images/add_button3x.png')}
+          style={styles.addButton}
+          source={require('../images/add_button3x.png')}
           />
         )
   }

@@ -30,5 +30,19 @@ START HERE (Not copy this line)
 			}		
 		}			
 	}
+
+# Fix link for react-native-material-kit
+https://github.com/xinthink/react-native-material-kit#getting-started	
+''' npm install -S react-native-material-kit
+''' react-native link react-native-material-kit
+
+# Fix link for react-native-gesture-handler
+https://reactnavigation.org/docs/en/getting-started.html#installation
+''' react-native link react-native-gesture-handler
+
+# Fix link for react-native-vector-icons
+https://github.com/oblador/react-native-vector-icons
+''' react-native link react-native-vector-icons
+
 END HERE (Not copy this line)
 
